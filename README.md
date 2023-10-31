@@ -1,10 +1,10 @@
 ## The general store program
 
-Expanded into a game as a part of a Cyber Security & Software Engineering Skills Bootcamp.
+Extension activity as a part of a Cyber Security & Software Engineering Skills Bootcamp.
 
 ## Possible expansions
 
-Consider making the below expansions to consolidate your programming knowledge and skills. However, it's up to you ultimately, feel free to get creative!
+Consider making the below expansions to consolidate your programming knowledge and skills. However, ultimately, it's up to you...get creative!
 
 1. Add an item to the general store. This will involve adding code to the switch statement (a conditional statement similar to the if statements we have already seen) and in a few other places as well. The item can be anything you like!
 
