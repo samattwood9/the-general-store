@@ -4,9 +4,9 @@ A program for a general store (like in a video game). Use it as a starting point
 
 ## Getting started
 
-Fork then clone this repository.
+1. Fork then clone this repository.
 
-Navigate to `Program.cs` using a terminal and enter:
+2. Navigate to `Program.cs` using a terminal and enter:
 
 ```
 cd src
