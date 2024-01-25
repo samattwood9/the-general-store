@@ -1,10 +1,18 @@
 ## The general store program
 
-Extension activity as a part of a Cyber Security & Software Engineering Skills Bootcamp.
+A program for a general store (like in a video game). Use it as a starting point for experimenting with C#.
+
+## Getting started
+
+Navigate to `Program.cs` using a terminal and enter:
+
+```
+dotnet run
+```
 
 ## Possible expansions
 
-Consider making the below expansions to consolidate your programming knowledge and skills. However, ultimately, it's up to you...get creative!
+Consider making the below expansions to consolidate your C# knowledge and skills. However, ultimately, it's up to you...get creative!
 
 1. Add an item to the general store. This will involve adding code to the switch statement (a conditional statement similar to the if statements we have already seen) and in a few other places as well. The item can be anything you like!
 
