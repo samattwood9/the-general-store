@@ -4,7 +4,15 @@ A program for a general store (like in a video game). Use it as a starting point
 
 ## Getting started
 
+Click the green **<> Code** button and select the **Open with GitHub Desktop** option.
+
+This should open the repository in GitHub Desktop. From here, select the **Open in Visual Studio Code** option.
+
 Navigate to `Program.cs` using a terminal and enter:
+
+```
+cd src
+```
 
 ```
 dotnet run
