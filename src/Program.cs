@@ -15,7 +15,7 @@
 
 
         Console.WriteLine("------------------------------");
-        Console.WriteLine("Welcome to the general store!");
+    
         Console.WriteLine("------------------------------");
 
         Console.WriteLine("");
@@ -23,7 +23,7 @@
         Console.WriteLine("What would you like to purchase?");
 
         Console.WriteLine("A: A nice shirt.");
-        Console.WriteLine("B: A protective helmet.");
+        Console.WriteLine("B: A protective helmet..");
         Console.WriteLine("C: Some food.");
         Console.WriteLine("D: A present.");
         Console.WriteLine("E: A Drink.");
