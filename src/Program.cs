@@ -21,6 +21,7 @@
         Console.WriteLine("B: A protective helmet.");
         Console.WriteLine("C: Some food.");
         Console.WriteLine("D: A present.");
+        Console.WriteLine("E: A steak.");
 
         Console.WriteLine("");
 
@@ -43,6 +44,10 @@
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
                 break;
             case "D":
+                playerCoins = playerCoins - presentPrice;
+                Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
+                break;
+            case "E":
                 playerCoins = playerCoins - presentPrice;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
                 break;
