@@ -1,25 +1,48 @@
 ﻿class Program
 {
+
+
+    static bool greetings(String message)
+    {
+        return message.Contains("hi") || message.Contains("hello");
+    }
+
+
+
     static void Main()
     {
         int playerCoins = 6000;
-        int discount =10;
+        int discount =0;
         int shirtPrice = 2500;
         int helmetPrice = 3000;
         int foodPrice = 500;
         int presentPrice = 1000;
         int drinks = 100;
-        string welcome=Console.ReadLine();
-
-        do{
-
-
         Console.WriteLine("------------------------------");
     
         Console.WriteLine("------------------------------");
 
         Console.WriteLine("");
 
+        Console.WriteLine("Welcome to genetal store would you like, say hi to the store manager");
+        string welcomemesage=Console.ReadLine();
+        
+        if(greetings(welcomemesage))
+        {
+                Console.WriteLine("Thanks for your response now you will get a 10% disocunt on overall purchase");
+                discount=10;
+        }
+        else{
+                Console.WriteLine("So sad lets get you to the shop");
+        }
+
+
+
+
+        do{
+
+
+   
 
         
 
@@ -37,6 +60,10 @@
 
         Console.WriteLine("");
        
+
+
+
+
 
         switch (purchaseLetter) {
             case "A" :
