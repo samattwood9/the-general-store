@@ -20,6 +20,9 @@
 
         Console.WriteLine("");
 
+
+        
+
         Console.WriteLine("What would you like to purchase?");
 
         Console.WriteLine("A: A nice shirt.");
@@ -91,6 +94,10 @@
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
             }
                 break;
+                default:
+            Console.WriteLine($" You selected wrong letter .");
+                break;
+
         }
         }
         while(playerCoins>0);
