@@ -13,11 +13,14 @@
     {
         int playerCoins = 6000;
         int discount =0;
+        int bill=0;
+      
         int shirtPrice = 2500;
         int helmetPrice = 3000;
         int foodPrice = 500;
         int presentPrice = 1000;
         int drinks = 100;
+        
         Console.WriteLine("------------------------------");
     
         Console.WriteLine("------------------------------");
@@ -64,7 +67,6 @@
 
 
 
-
         switch (purchaseLetter) {
             case "A" :
             if(shirtPrice>playerCoins)
@@ -73,6 +75,7 @@
             }else
             {
                 playerCoins = playerCoins - shirtPrice;
+                  bill=bill+shirtPrice;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
             }
                 break;
@@ -84,6 +87,7 @@
             else
             {
                 playerCoins = playerCoins - helmetPrice;
+                bill=bill+helmetPrice;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
             }
                 break;
@@ -95,6 +99,7 @@
             else
             {
                 playerCoins = playerCoins - foodPrice;
+                bill=bill+foodPrice;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
             }
                 break;
@@ -107,6 +112,7 @@
             else
             {
                 playerCoins = playerCoins - presentPrice;
+                bill=bill+presentPrice;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
             }
                 break;
@@ -118,6 +124,7 @@
             else
             {
                 playerCoins = playerCoins - drinks;
+                bill=bill+drinks;
                 Console.WriteLine($"Thanks for your purchase! You have {playerCoins} coins remaining.");
             }
                 break;
@@ -128,6 +135,14 @@
         }
         }
         while(playerCoins>0);
+        
+if(discount>0)
+{
+            int total=bill;
+    discount=(bill/100)*10;
+    total=total-discount;
+    Console.WriteLine($"After discount you total bill is : {total} ");
+}
     }
 }
 
